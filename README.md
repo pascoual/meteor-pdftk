@@ -31,18 +31,19 @@ You need to have pdftk command line on your environment
 4. Exemple: 
 ```js
 PDFTK.stamp('.../sample.pdf',
-						'.../pdfStamp.pdf',
-						'.../result.pdf',
-						function (err, buffer) {
-							if (err)
-								console.log(err);
-						});
+			'.../pdfStamp.pdf',
+			'.../result.pdf',
+			function (err, buffer) {
+				if (err)
+					console.log(err);
+			});
 ```
 
 ## Command options wrapped
-List of actual wrapper:
+List of actual wrappers:
 * stamp
-we will add more wrapper soon.
+
+More options wrappers soon.
 
 
 ## Documentation
@@ -75,7 +76,7 @@ Some guidelines below:
 
 ## TODO
 1. Add testing
-2. Wrap mode options
+2. Wrap more options
 
 ## License
 MIT
