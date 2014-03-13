@@ -1,0 +1,8 @@
+{
+  "name": "pdftk",
+  "description": "Meteor wrapper for PDFTk, the PDF Toolkit. PDFTk is a simple command line tool for doing everyday things with PDF documents like: merge, split, decrypt/encrypt, fill Forms, apply a background watermark, report metrics, update PDF metadata, attach files, unpack attachments, burst into single pages, uncompress/compress, repair corrupted PDF.",
+  "homepage": "https://github.com/pascoual/meteor-pdftk",
+  "author": "Pascal Richier @pascalrichier",
+  "version": "0.1.0",
+  "git": "https://github.com/pascoual/meteor-pdftk.git"
+}
