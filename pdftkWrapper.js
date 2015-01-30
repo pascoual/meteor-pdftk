@@ -37,3 +37,7 @@ PDFTK.fillForm = function(pdf, xfdf, callback) {
 PDFTK.stamp = function(pdf, stamp, output, callback) {
   PDFTK.execute([pdf, 'stamp', stamp, 'output', output], callback);
 };
+
+PDFTK.multistamp = function(pdf, stamp, output, callback) {
+  PDFTK.execute([pdf, 'multistamp', stamp, 'output', output], callback);
+};
