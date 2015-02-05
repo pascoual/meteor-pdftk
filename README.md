@@ -1,9 +1,11 @@
 PDFTk
-============
+=====
 
-Tool for manipulating PDF documents
+Server-side Meteor wrapper for PDFtk, the [PDF toolkit](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/), a tool for manipulating PDF documents.
 
-If PDF is electronic paper, then pdftk is an electronic stapler-remover, hole-punch, binder, secret-decoder-ring, and X-Ray-glasses. Pdftk is a simple tool for doing everyday things with PDF documents. Keep one in the top drawer of your desktop and use it to:
+From the [pdftk man page](http://linux.die.net/man/1/pdftk):
+
+> If PDF is electronic paper, then pdftk is an electronic stapler-remover, hole-punch, binder, secret-decoder-ring, and X-Ray-glasses. Pdftk is a simple tool for doing everyday things with PDF documents. Keep one in the top drawer of your desktop and use it to:
 
 * Merge PDF Documents or Collate PDF Page Scans
 * Split PDF Pages into a New Document
