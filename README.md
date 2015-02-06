@@ -44,8 +44,10 @@ PDFTK.stamp('.../sample.pdf',
 ## Command options wrapped
 List of actual wrappers:
 * stamp
+* multistamp
 
 More options wrappers soon.
+Come on help us with a PR !
 
 
 ## Documentation
