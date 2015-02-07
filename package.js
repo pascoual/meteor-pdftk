@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pascoual:pdftk',
   summary: 'PDFTK wrapper for Meteor',
-  version: '0.5.0',
+  version: '0.5.1',
   git: 'https://github.com/pascoual/meteor-pdftk.git'
 });
 

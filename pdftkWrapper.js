@@ -26,8 +26,8 @@ PDFTK.pages = function(pdf, start, end, callback) {
   PDFTK.execute([pdf, 'cat', range, 'output -'], callback);
 };
 
-PDFTK.fillForm = function(pdf, xfdf, callback) {
-  PDFTK.execute([pdf, 'fill_form ', xfdf, 'output - flatten'], callback);
+PDFTK.fillForm = function(pdf, xfdf, output, callback) {
+  PDFTK.execute([pdf, 'fill_form ', xfdf, 'output ', output], callback);
 };
 
 /**
