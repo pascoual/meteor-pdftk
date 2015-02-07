@@ -11,7 +11,7 @@ if (PDFTK === undefined)
  */
 PDFTK.execute = function (args, callback) {
   var command = 'pdftk ' + args.join(' ');
-  exec(command, {encoding: 'binary'}, function(err, stdout, stderr) {
+  exec(command, {encoding: 'binary', maxBuffer: 1024 * 1000}, function(err, stdout, stderr) {
     if(err) return callback(new Error(err));
     callback(null, new Buffer(stdout, 'binary'));
   });
